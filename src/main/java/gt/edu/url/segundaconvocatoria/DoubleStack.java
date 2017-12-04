@@ -8,15 +8,12 @@ public interface DoubleStack<E> {
 	//Obtener el tama;o de cada elemento
 	int red();
 	int blu();
-	
-        boolean isEmpty();
-    
+    boolean isEmpty();
 	int redSize();
 	void redPush(E e);
 	E redTop();
-	E redPop();
-        
-        int blueSize();
+	E redPop();    
+    int blueSize();
 	void bluePush(E e);
 	E blueTop();
 	E bluePop();
