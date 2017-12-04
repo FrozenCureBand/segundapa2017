@@ -5,6 +5,10 @@ package gt.edu.url.segundaconvocatoria;
  * @author tuxtor
  */
 public interface DoubleStack<E> {
+	//Obtener el tama;o de cada elemento
+	int red();
+	int blu();
+	
         boolean isEmpty();
     
 	int redSize();
